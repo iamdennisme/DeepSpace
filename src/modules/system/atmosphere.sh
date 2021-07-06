@@ -1,11 +1,11 @@
 source src/utils/constants.sh
 source src/utils/logger.sh
 
-PKG_URL=https://github.com/Atmosphere-NX/Atmosphere/releases/download/0.19.4/atmosphere-0.19.4-master-2ab01ad3+hbl-2.4.1+hbmenu-3.4.0.zip
+PKG_URL=https://github.com/Atmosphere-NX/Atmosphere/releases/download/0.19.5/atmosphere-0.19.5-master-9df13781c+hbl-2.4.1+hbmenu-3.4.0.zip
 PKG_DIR=$ROOT_BUILD_PATH/atmosphere
 PKG_OUT_DIR=$ROOT_BUILD_PATH/atmosphere/out
-PKG_FILE_PATH=$PKG_DIR/atmosphere-0.19.4-master-2ab01ad3+hbl-2.4.1+hbmenu-3.4.0.zip
-PKG_FILE_HASH=9df71f4f3984adc3357bba8311a27964
+PKG_FILE_PATH=$PKG_DIR/atmosphere-0.19.5-master-9df13781c+hbl-2.4.1+hbmenu-3.4.0.zip
+PKG_FILE_HASH=62862715703c41b616f76bd00dbdffd7
 
 fs_download $PKG_URL $PKG_FILE_PATH $PKG_FILE_HASH
 
