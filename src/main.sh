@@ -24,7 +24,6 @@ bash src/modules/homebrew_apps/JKSV.sh
 bash src/modules/homebrew_apps/linkalho.sh
 bash src/modules/homebrew_apps/NX-Activity-Log.sh
 bash src/modules/homebrew_apps/NX-Shell.sh
-bash src/modules/homebrew_apps/Tencent-switcher-GUI.sh
 bash src/modules/homebrew_apps/Switch_90DNS_tester.sh
 
 cd $ROOT_DIST_PATH
